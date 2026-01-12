@@ -56,6 +56,7 @@ Dockerized-Jenkins-CICD-on-AWS-EC2/
 ## ⚙️ Setup Instructions (EC2)
 
 ### 1️⃣ Install Docker
+
 ```bash
 sudo apt update -y
 sudo apt install docker.io -y
@@ -81,7 +82,7 @@ Open Jenkins UI
 http://<EC2_PUBLIC_IP>:8080
 ---------------------------------------------------------------------------------------------------
 
-**🔧 Jenkins Setup**
+🔧 Jenkins Setup
 Install Suggested Plugins
 
 During first-time setup choose:
@@ -114,7 +115,27 @@ Save & Build.
 After successful pipeline build:
 
 App runs on:
+http://<EC2_PUBLIC_IP>:3000
 
+=====================================================================================================
+Example output:
+{
+  "message": "✅ CI/CD Deployment Successful using Jenkins + Docker on AWS EC2",
+  "endpoint": "/",
+  "timestamp": "2026-01-12T..."
+}
+
+=====================================================================================================
+
+👤 Author
+
+Vardhan Kandregula DevOps Engineer | AWS | Docker | Kubernetes | CI/CD
+
+📌 This project is part of my DevOps learning and portfolio.
+
+⭐ If you like this project
+
+Give it a ⭐ on GitHub and feel free to fork or contribute!
 
 
 
