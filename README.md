@@ -79,6 +79,54 @@ docker exec -it jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 ===================================================================================================
 Open Jenkins UI
 http://<EC2_PUBLIC_IP>:8080
+---------------------------------------------------------------------------------------------------
+
+**🔧 Jenkins Setup**
+Install Suggested Plugins
+
+During first-time setup choose:
+✅ "Install Suggested Plugins"
+
+🏗️ Configure Pipeline Job
+
+Open Jenkins Dashboard
+
+New Item
+
+Select Pipeline
+
+**Pipeline Definition:**
+
+✅ Pipeline script from SCM
+
+SCM: Git
+
+Repo URL: Your GitHub repo
+
+Branch: main
+
+Script Path: Jenkinsfile
+
+Save & Build.
+
+✅ **Verify App Deployment**
+
+After successful pipeline build:
+
+App runs on:
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
