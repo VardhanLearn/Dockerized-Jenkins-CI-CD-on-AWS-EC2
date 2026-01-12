@@ -13,7 +13,6 @@ pipeline {
       steps {
         echo "Cloning GitHub repository..."
         git branch: "master", url: "https://github.com/VardhanLearn/Dockerized-Jenkins-CI-CD-on-AWS-EC2.git"
-"
       }
     }
 
