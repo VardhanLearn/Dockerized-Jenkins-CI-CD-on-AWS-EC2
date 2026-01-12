@@ -63,4 +63,25 @@ sudo systemctl enable docker
 sudo systemctl start docker
 sudo usermod -aG docker ubuntu
 newgrp docker
+----------------------------------------------------------------------------------------------------
+2️⃣ Install Docker Compose
+
+sudo apt install docker-compose -y
+----------------------------------------------------------------------------------------------------
+
+🧩 Run Jenkins in Docker
+Start Jenkins
+
+docker-compose up -d
+---------------------------------------------------------------------------------------------------
+Get Jenkins Initial Password
+docker exec -it jenkins cat /var/jenkins_home/secrets/initialAdminPassword
+===================================================================================================
+Open Jenkins UI
+http://<EC2_PUBLIC_IP>:8080
+
+
+
+
+
 
