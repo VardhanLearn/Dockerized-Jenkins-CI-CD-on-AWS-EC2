@@ -25,3 +25,42 @@ Whenever Jenkins pipeline runs:
 
 ## 📂 Project Structure
 
+Dockerized-Jenkins-CICD-on-AWS-EC2/
+│
+├── app/
+│ ├── Dockerfile
+│ ├── package.json
+│ └── index.js
+│
+├── Jenkinsfile
+├── docker-compose.yml
+├── .gitignore
+└── README.md
+
+
+---
+
+## 🧰 Requirements
+
+### AWS
+- EC2 Instance: `t2.medium` (recommended)
+- OS: Ubuntu 22.04
+- Storage: 15GB+
+- Security Group Rules:
+  - SSH: `22`
+  - Jenkins: `8080`
+  - App Port: `3000`
+
+---
+
+## ⚙️ Setup Instructions (EC2)
+
+### 1️⃣ Install Docker
+```bash
+sudo apt update -y
+sudo apt install docker.io -y
+sudo systemctl enable docker
+sudo systemctl start docker
+sudo usermod -aG docker ubuntu
+newgrp docker
+
