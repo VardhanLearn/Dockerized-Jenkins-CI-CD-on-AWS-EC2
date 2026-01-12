@@ -18,8 +18,8 @@ pipeline {
 
     stage("Build Docker Image") {
       steps {
-        echo "Building Docker Image..."
-        sh "docker build -t ${IMAGE_NAME} app/"
+        echo 'Building Docker Image...'
+        sh 'docker build -t demo-node-app:v1 .'
       }
     }
 
