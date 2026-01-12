@@ -1,5 +1,8 @@
 # 🚀 Dockerized Jenkins CI/CD on AWS EC2
 
+<img width="1536" height="1024" alt="ChatGPT Image Jan 12, 2026, 08_31_18 PM" src="https://github.com/user-attachments/assets/31d03708-1b02-45ff-8f8d-594e452366f9" />
+
+
 This project demonstrates a complete **CI/CD Pipeline** using:
 
 ✅ AWS EC2 (Ubuntu 22.04)  
@@ -136,21 +139,5 @@ Vardhan Kandregula DevOps Engineer | AWS | Docker | Kubernetes | CI/CD
 ⭐ If you like this project
 
 Give it a ⭐ on GitHub and feel free to fork or contribute!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
